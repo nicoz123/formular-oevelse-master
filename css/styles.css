@@ -1,0 +1,22 @@
+/* Dine styles her */
+form {
+  padding: 2rem;
+  background: hsl(264 30% 96%);
+  border-radius: 8px;
+}
+.grid1_1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+label,
+input,
+textarea,
+select,
+button {
+  display: block;
+  margin: 2px;
+}
+button {
+  background-color: rgb(199, 197, 194);
+  margin-top: 10px;
+}
